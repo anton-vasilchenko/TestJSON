@@ -56,7 +56,7 @@ class TableViewController: UITableViewController {
             let block = json[0].data.filter {$0.name == "selector"}
             cell.textLabel?.text = block[0].name
             let selectedID = block[0].data.selectedID
-            cell.detailTextLabel?.text = block[0].data.variants?[selectedID!].text
+            cell.detailTextLabel?.text = block[0].data.variants?[selectedID! - 1].text
         default:
             print("default")
         }

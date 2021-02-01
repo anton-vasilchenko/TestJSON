@@ -25,7 +25,11 @@ extension AdaptedCellProtocol {
         UINib(nibName: identifier, bundle: nil)
     }
     
-    static func reuse(_tableView: UITableView, for indexPath: IndexPath) -> Self {
-        _tableView.dequeueReusableCell(withIdentifier: identifier, for: indexPath) as! Self
+    static func register(_ tableView: UITableView) {
+        tableView.register(nib, forCellReuseIdentifier: identifier)
+    }
+    
+    static func reuse(_ tableView: UITableView, for indexPath: IndexPath) -> Self {
+        tableView.dequeueReusableCell(withIdentifier: identifier, for: indexPath) as! Self
     }
 }

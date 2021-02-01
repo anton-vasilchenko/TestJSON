@@ -9,15 +9,23 @@ import UIKit
 
 class SelectorTableViewCell: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    @IBOutlet private weak var nameLabel: UILabel!
+    @IBOutlet private weak var selectedIDLabel: UILabel!
+    @IBOutlet private weak var idLabel: UILabel!
+    @IBOutlet private weak var dataTextLabel: UILabel!
+    
+    var viewModel: SelectorCellViewModelInputProtocol? {
+        didSet {
+            bindViewModel()
+        }
+    }
+    
+    private func bindViewModel() {
+        nameLabel.text = viewModel?.name
+        dataTextLabel.text = viewModel?.text
+        selectedIDLabel.text = String(viewModel!.selectedID)
+        idLabel.text =  String(viewModel!.id)
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
     
 }

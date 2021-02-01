@@ -6,18 +6,30 @@
 //
 
 import UIKit
+import Kingfisher
 
-class JSONPictureTableViewCell: UITableViewCell {
+class JSONPictureTableViewCell: UITableViewCell, AdaptedCellProtocol {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    @IBOutlet weak var pictureView: UIImageView!
+    
+    @IBOutlet weak var firstLabel: UILabel!
+    @IBOutlet weak var secondLabel: UILabel!
+    @IBOutlet weak var thirdLabel: UILabel!
+    
+    
+    var viewModel: JSONPictureCellViewModelInputProtocol? {
+        didSet {
+            bindViewModel()
+        }
     }
+    
+    private func bindViewModel() {
+        firstLabel.text = viewModel?.name
+        secondLabel.text = viewModel?.text
+        thirdLabel.text = viewModel?.url
+//        pictureView.kf.setImage(with: viewModel?.url)
+//        pictureView.kf.setImage(with: viewModel?.url)
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
     
 }

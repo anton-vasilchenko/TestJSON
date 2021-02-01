@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -50,6 +51,36 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Aql-LM-CfD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-919" y="65"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7yU-3Y-ueP">
+            <objects>
+                <viewController id="naV-oO-021" customClass="ViewController" customModule="TestJSON" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aSC-OS-zZy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="kVe-Xf-ycw" customClass="AdaptedTableView" customModule="TestJSON" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gnd-pj-y4I"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="gnd-pj-y4I" firstAttribute="bottom" secondItem="kVe-Xf-ycw" secondAttribute="bottom" id="2Ca-Tu-lwx"/>
+                            <constraint firstItem="gnd-pj-y4I" firstAttribute="trailing" secondItem="kVe-Xf-ycw" secondAttribute="trailing" id="8Wn-tS-SLQ"/>
+                            <constraint firstItem="kVe-Xf-ycw" firstAttribute="top" secondItem="gnd-pj-y4I" secondAttribute="top" id="CHN-je-rhx"/>
+                            <constraint firstItem="kVe-Xf-ycw" firstAttribute="leading" secondItem="gnd-pj-y4I" secondAttribute="leading" id="gNy-fe-PHY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="kVe-Xf-ycw" id="3Po-RO-AV9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ACx-zM-gOi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1678" y="65"/>
         </scene>
     </scenes>
     <resources>

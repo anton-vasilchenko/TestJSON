@@ -11,7 +11,7 @@ import UIKit
 class AdaptedTableView: UITableView {
     
     var viewModel: AdaptedViewModelInputProtocol?
-    var cellFactory: AdaptedCellFactoryProtocol? {
+    var cellFactory: AdaptedSectionFactoryProtocol? {
         didSet {
             cellFactory?.cellTypes.forEach({$0.register(self)})
         }

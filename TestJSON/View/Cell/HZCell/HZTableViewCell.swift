@@ -7,17 +7,21 @@
 
 import UIKit
 
-class HZTableViewCell: UITableViewCell {
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+final class HZTableViewCell: UITableViewCell, AdaptedCellProtocol {
+    
+    @IBOutlet private weak var name: UILabel!
+    @IBOutlet private weak var dataText: UILabel!
+    
+    var viewModel: HZCellViewModelInputProtocol? {
+        didSet {
+            bindViewModel()
+        }
+    }
+    
+    private func bindViewModel() {
+        name.text = viewModel?.name
+        dataText.text = viewModel?.text
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
     
 }

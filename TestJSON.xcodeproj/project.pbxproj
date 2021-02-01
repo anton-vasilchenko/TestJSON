@@ -7,26 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A90586E25C8501800D5713B /* JSONPictureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A90586C25C8501800D5713B /* JSONPictureTableViewCell.swift */; };
+		3A90586F25C8501800D5713B /* JSONPictureTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A90586D25C8501800D5713B /* JSONPictureTableViewCell.xib */; };
+		3A90587225C8518300D5713B /* JSONPictureCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A90587125C8518300D5713B /* JSONPictureCellViewModel.swift */; };
+		3A90587525C8523900D5713B /* SelectorCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A90587425C8523900D5713B /* SelectorCellViewModel.swift */; };
 		3A9E026E25C56B390082B885 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9E026D25C56B390082B885 /* TableViewController.swift */; };
 		3A9E027325C56B8D0082B885 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9E027225C56B8D0082B885 /* NetworkManager.swift */; };
 		3A9E027E25C623CC0082B885 /* PictureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9E027C25C623CC0082B885 /* PictureTableViewCell.swift */; };
 		3A9E027F25C623CC0082B885 /* PictureTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A9E027D25C623CC0082B885 /* PictureTableViewCell.xib */; };
 		3A9E028325C628A90082B885 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 3A9E028225C628A90082B885 /* Kingfisher */; };
+		3AA94F0D25C7EA4B00CADCFF /* AdaptedTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA94F0C25C7EA4B00CADCFF /* AdaptedTableView.swift */; };
+		3AA94F1125C7EAF300CADCFF /* AdaptedViewModelInputProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA94F1025C7EAF300CADCFF /* AdaptedViewModelInputProtocol.swift */; };
+		3AA94F1425C7EC8100CADCFF /* AdaptedCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA94F1325C7EC8100CADCFF /* AdaptedCellProtocol.swift */; };
+		3AA94F1725C7ED8400CADCFF /* AdaptedCellFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA94F1625C7ED8400CADCFF /* AdaptedCellFactoryProtocol.swift */; };
+		3AA94F2925C7F62E00CADCFF /* HZTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA94F2725C7F62E00CADCFF /* HZTableViewCell.swift */; };
+		3AA94F2A25C7F62E00CADCFF /* HZTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AA94F2825C7F62E00CADCFF /* HZTableViewCell.xib */; };
+		3AA94F3325C7F66400CADCFF /* SelectorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA94F3125C7F66400CADCFF /* SelectorTableViewCell.swift */; };
+		3AA94F3425C7F66400CADCFF /* SelectorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AA94F3225C7F66400CADCFF /* SelectorTableViewCell.xib */; };
+		3AA94F3725C7F69400CADCFF /* HZCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA94F3625C7F69400CADCFF /* HZCellViewModel.swift */; };
+		3AA94F3A25C7F91D00CADCFF /* AdaptedSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA94F3925C7F91D00CADCFF /* AdaptedSectionView.swift */; };
+		3AA94F3D25C7F98000CADCFF /* AdaptedSectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA94F3C25C7F98000CADCFF /* AdaptedSectionViewModel.swift */; };
+		3AA94F4125C7FA5E00CADCFF /* MainCellFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA94F4025C7FA5E00CADCFF /* MainCellFactory.swift */; };
+		3AA94F4425C7FAA800CADCFF /* AdaptedSectionFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA94F4325C7FAA800CADCFF /* AdaptedSectionFactoryProtocol.swift */; };
+		3AA94F4725C7FCB800CADCFF /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA94F4625C7FCB800CADCFF /* MainViewModel.swift */; };
+		3AA94F4A25C7FD4E00CADCFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA94F4925C7FD4E00CADCFF /* ViewController.swift */; };
 		3AFF66A725C497A0002A0488 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFF66A625C497A0002A0488 /* AppDelegate.swift */; };
 		3AFF66A925C497A0002A0488 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFF66A825C497A0002A0488 /* SceneDelegate.swift */; };
 		3AFF66AE25C497A0002A0488 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFF66AC25C497A0002A0488 /* Main.storyboard */; };
 		3AFF66B025C497A2002A0488 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFF66AF25C497A2002A0488 /* Assets.xcassets */; };
 		3AFF66B325C497A2002A0488 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFF66B125C497A2002A0488 /* LaunchScreen.storyboard */; };
 		3AFF66D025C4A487002A0488 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3AFF66CF25C4A487002A0488 /* Alamofire */; };
-		3AFF66EB25C4AE48002A0488 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 3AFF66EA25C4AE48002A0488 /* SwiftyJSON */; };
 		3AFF66EF25C4AEBC002A0488 /* PryanikyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFF66EE25C4AEBC002A0488 /* PryanikyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A90586C25C8501800D5713B /* JSONPictureTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONPictureTableViewCell.swift; sourceTree = "<group>"; };
+		3A90586D25C8501800D5713B /* JSONPictureTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JSONPictureTableViewCell.xib; sourceTree = "<group>"; };
+		3A90587125C8518300D5713B /* JSONPictureCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONPictureCellViewModel.swift; sourceTree = "<group>"; };
+		3A90587425C8523900D5713B /* SelectorCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorCellViewModel.swift; sourceTree = "<group>"; };
 		3A9E026D25C56B390082B885 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		3A9E027225C56B8D0082B885 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		3A9E027C25C623CC0082B885 /* PictureTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureTableViewCell.swift; sourceTree = "<group>"; };
 		3A9E027D25C623CC0082B885 /* PictureTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PictureTableViewCell.xib; sourceTree = "<group>"; };
+		3AA94F0C25C7EA4B00CADCFF /* AdaptedTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptedTableView.swift; sourceTree = "<group>"; };
+		3AA94F1025C7EAF300CADCFF /* AdaptedViewModelInputProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptedViewModelInputProtocol.swift; sourceTree = "<group>"; };
+		3AA94F1325C7EC8100CADCFF /* AdaptedCellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptedCellProtocol.swift; sourceTree = "<group>"; };
+		3AA94F1625C7ED8400CADCFF /* AdaptedCellFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptedCellFactoryProtocol.swift; sourceTree = "<group>"; };
+		3AA94F2725C7F62E00CADCFF /* HZTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZTableViewCell.swift; sourceTree = "<group>"; };
+		3AA94F2825C7F62E00CADCFF /* HZTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HZTableViewCell.xib; sourceTree = "<group>"; };
+		3AA94F3125C7F66400CADCFF /* SelectorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorTableViewCell.swift; sourceTree = "<group>"; };
+		3AA94F3225C7F66400CADCFF /* SelectorTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectorTableViewCell.xib; sourceTree = "<group>"; };
+		3AA94F3625C7F69400CADCFF /* HZCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZCellViewModel.swift; sourceTree = "<group>"; };
+		3AA94F3925C7F91D00CADCFF /* AdaptedSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptedSectionView.swift; sourceTree = "<group>"; };
+		3AA94F3C25C7F98000CADCFF /* AdaptedSectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptedSectionViewModel.swift; sourceTree = "<group>"; };
+		3AA94F4025C7FA5E00CADCFF /* MainCellFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCellFactory.swift; sourceTree = "<group>"; };
+		3AA94F4325C7FAA800CADCFF /* AdaptedSectionFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptedSectionFactoryProtocol.swift; sourceTree = "<group>"; };
+		3AA94F4625C7FCB800CADCFF /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		3AA94F4925C7FD4E00CADCFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3AFF66A325C497A0002A0488 /* TestJSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestJSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFF66A625C497A0002A0488 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AFF66A825C497A0002A0488 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +80,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A9E028325C628A90082B885 /* Kingfisher in Frameworks */,
-				3AFF66EB25C4AE48002A0488 /* SwiftyJSON in Frameworks */,
 				3AFF66D025C4A487002A0488 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,6 +98,7 @@
 		3A9E027625C6238B0082B885 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3AA94F1E25C7F14E00CADCFF /* Cell */,
 				3A9E027C25C623CC0082B885 /* PictureTableViewCell.swift */,
 				3A9E027D25C623CC0082B885 /* PictureTableViewCell.xib */,
 			);
@@ -82,6 +119,61 @@
 				3AFF66EE25C4AEBC002A0488 /* PryanikyJSON.swift */,
 			);
 			path = Entity;
+			sourceTree = "<group>";
+		};
+		3AA94F1E25C7F14E00CADCFF /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3AA94F2125C7F17B00CADCFF /* SelectorCell */,
+				3AA94F2025C7F17300CADCFF /* PictureCell */,
+				3AA94F1F25C7F16D00CADCFF /* HZCell */,
+				3AA94F4025C7FA5E00CADCFF /* MainCellFactory.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		3AA94F1F25C7F16D00CADCFF /* HZCell */ = {
+			isa = PBXGroup;
+			children = (
+				3AA94F2725C7F62E00CADCFF /* HZTableViewCell.swift */,
+				3AA94F3625C7F69400CADCFF /* HZCellViewModel.swift */,
+				3AA94F2825C7F62E00CADCFF /* HZTableViewCell.xib */,
+			);
+			path = HZCell;
+			sourceTree = "<group>";
+		};
+		3AA94F2025C7F17300CADCFF /* PictureCell */ = {
+			isa = PBXGroup;
+			children = (
+				3A90586C25C8501800D5713B /* JSONPictureTableViewCell.swift */,
+				3A90587125C8518300D5713B /* JSONPictureCellViewModel.swift */,
+				3A90586D25C8501800D5713B /* JSONPictureTableViewCell.xib */,
+			);
+			path = PictureCell;
+			sourceTree = "<group>";
+		};
+		3AA94F2125C7F17B00CADCFF /* SelectorCell */ = {
+			isa = PBXGroup;
+			children = (
+				3AA94F3125C7F66400CADCFF /* SelectorTableViewCell.swift */,
+				3A90587425C8523900D5713B /* SelectorCellViewModel.swift */,
+				3AA94F3225C7F66400CADCFF /* SelectorTableViewCell.xib */,
+			);
+			path = SelectorCell;
+			sourceTree = "<group>";
+		};
+		3AA94F2225C7F5DF00CADCFF /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3AA94F0C25C7EA4B00CADCFF /* AdaptedTableView.swift */,
+				3AA94F1325C7EC8100CADCFF /* AdaptedCellProtocol.swift */,
+				3AA94F1625C7ED8400CADCFF /* AdaptedCellFactoryProtocol.swift */,
+				3AA94F1025C7EAF300CADCFF /* AdaptedViewModelInputProtocol.swift */,
+				3AA94F3925C7F91D00CADCFF /* AdaptedSectionView.swift */,
+				3AA94F3C25C7F98000CADCFF /* AdaptedSectionViewModel.swift */,
+				3AA94F4325C7FAA800CADCFF /* AdaptedSectionFactoryProtocol.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		3AFF669A25C497A0002A0488 = {
@@ -107,9 +199,11 @@
 				3A9E026C25C56B1E0082B885 /* Controller */,
 				3AA94F0925C7E79600CADCFF /* Core */,
 				3AFF66DB25C4A6FB002A0488 /* Model */,
+				3AA94F2225C7F5DF00CADCFF /* Protocols */,
 				3AFF66A625C497A0002A0488 /* AppDelegate.swift */,
 				3AFF66A825C497A0002A0488 /* SceneDelegate.swift */,
 				3AFF66AC25C497A0002A0488 /* Main.storyboard */,
+				3AA94F4925C7FD4E00CADCFF /* ViewController.swift */,
 				3AFF66AF25C497A2002A0488 /* Assets.xcassets */,
 				3AFF66B125C497A2002A0488 /* LaunchScreen.storyboard */,
 				3AFF66B425C497A2002A0488 /* Info.plist */,
@@ -129,6 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				3AA94F0A25C7E7AA00CADCFF /* Entity */,
+				3AA94F4625C7FCB800CADCFF /* MainViewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -151,7 +246,6 @@
 			name = TestJSON;
 			packageProductDependencies = (
 				3AFF66CF25C4A487002A0488 /* Alamofire */,
-				3AFF66EA25C4AE48002A0488 /* SwiftyJSON */,
 				3A9E028225C628A90082B885 /* Kingfisher */,
 			);
 			productName = TestJSON;
@@ -183,7 +277,6 @@
 			mainGroup = 3AFF669A25C497A0002A0488;
 			packageReferences = (
 				3AFF66CE25C4A487002A0488 /* XCRemoteSwiftPackageReference "Alamofire" */,
-				3AFF66E925C4AE48002A0488 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 				3A9E028125C628A90082B885 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = 3AFF66A425C497A0002A0488 /* Products */;
@@ -200,8 +293,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AA94F3425C7F66400CADCFF /* SelectorTableViewCell.xib in Resources */,
+				3A90586F25C8501800D5713B /* JSONPictureTableViewCell.xib in Resources */,
 				3A9E027F25C623CC0082B885 /* PictureTableViewCell.xib in Resources */,
 				3AFF66B325C497A2002A0488 /* LaunchScreen.storyboard in Resources */,
+				3AA94F2A25C7F62E00CADCFF /* HZTableViewCell.xib in Resources */,
 				3AFF66B025C497A2002A0488 /* Assets.xcassets in Resources */,
 				3AFF66AE25C497A0002A0488 /* Main.storyboard in Resources */,
 			);
@@ -215,11 +311,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A9E027325C56B8D0082B885 /* NetworkManager.swift in Sources */,
+				3AA94F4A25C7FD4E00CADCFF /* ViewController.swift in Sources */,
 				3AFF66EF25C4AEBC002A0488 /* PryanikyJSON.swift in Sources */,
+				3AA94F3325C7F66400CADCFF /* SelectorTableViewCell.swift in Sources */,
+				3AA94F4425C7FAA800CADCFF /* AdaptedSectionFactoryProtocol.swift in Sources */,
+				3A90587225C8518300D5713B /* JSONPictureCellViewModel.swift in Sources */,
+				3AA94F0D25C7EA4B00CADCFF /* AdaptedTableView.swift in Sources */,
+				3A90586E25C8501800D5713B /* JSONPictureTableViewCell.swift in Sources */,
+				3AA94F3D25C7F98000CADCFF /* AdaptedSectionViewModel.swift in Sources */,
+				3AA94F1425C7EC8100CADCFF /* AdaptedCellProtocol.swift in Sources */,
+				3AA94F2925C7F62E00CADCFF /* HZTableViewCell.swift in Sources */,
+				3AA94F3725C7F69400CADCFF /* HZCellViewModel.swift in Sources */,
+				3AA94F1725C7ED8400CADCFF /* AdaptedCellFactoryProtocol.swift in Sources */,
+				3AA94F3A25C7F91D00CADCFF /* AdaptedSectionView.swift in Sources */,
 				3A9E026E25C56B390082B885 /* TableViewController.swift in Sources */,
 				3A9E027E25C623CC0082B885 /* PictureTableViewCell.swift in Sources */,
 				3AFF66A725C497A0002A0488 /* AppDelegate.swift in Sources */,
+				3AA94F4125C7FA5E00CADCFF /* MainCellFactory.swift in Sources */,
 				3AFF66A925C497A0002A0488 /* SceneDelegate.swift in Sources */,
+				3AA94F1125C7EAF300CADCFF /* AdaptedViewModelInputProtocol.swift in Sources */,
+				3AA94F4725C7FCB800CADCFF /* MainViewModel.swift in Sources */,
+				3A90587525C8523900D5713B /* SelectorCellViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,14 +551,6 @@
 				minimumVersion = 5.4.1;
 			};
 		};
-		3AFF66E925C4AE48002A0488 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -459,11 +563,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 3AFF66CE25C4A487002A0488 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
-		};
-		3AFF66EA25C4AE48002A0488 /* SwiftyJSON */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3AFF66E925C4AE48002A0488 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
-			productName = SwiftyJSON;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

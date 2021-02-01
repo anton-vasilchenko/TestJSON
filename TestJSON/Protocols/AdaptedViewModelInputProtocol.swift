@@ -16,3 +16,13 @@ protocol AdaptedSectionViewModelProtocol {
 protocol AdaptedViewModelInputProtocol {
     var sections: [AdaptedSectionViewModelProtocol] { get }
 }
+
+protocol AdaptedViewModelOutputProtocol {
+    func didSelectRowAt(indexPath: IndexPath)
+}
+
+extension AdaptedViewModelOutputProtocol {
+    func didSelectRowAt(indexPath: IndexPath) { }
+}
+
+typealias AdaptedSectionViewModelType = AdaptedViewModelInputProtocol & AdaptedViewModelOutputProtocol
