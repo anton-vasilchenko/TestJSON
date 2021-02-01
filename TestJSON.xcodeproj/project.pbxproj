@@ -25,7 +25,6 @@
 		3AA94F3325C7F66400CADCFF /* SelectorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA94F3125C7F66400CADCFF /* SelectorTableViewCell.swift */; };
 		3AA94F3425C7F66400CADCFF /* SelectorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AA94F3225C7F66400CADCFF /* SelectorTableViewCell.xib */; };
 		3AA94F3725C7F69400CADCFF /* HZCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA94F3625C7F69400CADCFF /* HZCellViewModel.swift */; };
-		3AA94F3A25C7F91D00CADCFF /* AdaptedSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA94F3925C7F91D00CADCFF /* AdaptedSectionView.swift */; };
 		3AA94F3D25C7F98000CADCFF /* AdaptedSectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA94F3C25C7F98000CADCFF /* AdaptedSectionViewModel.swift */; };
 		3AA94F4125C7FA5E00CADCFF /* MainCellFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA94F4025C7FA5E00CADCFF /* MainCellFactory.swift */; };
 		3AA94F4425C7FAA800CADCFF /* AdaptedSectionFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA94F4325C7FAA800CADCFF /* AdaptedSectionFactoryProtocol.swift */; };
@@ -58,7 +57,6 @@
 		3AA94F3125C7F66400CADCFF /* SelectorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorTableViewCell.swift; sourceTree = "<group>"; };
 		3AA94F3225C7F66400CADCFF /* SelectorTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectorTableViewCell.xib; sourceTree = "<group>"; };
 		3AA94F3625C7F69400CADCFF /* HZCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZCellViewModel.swift; sourceTree = "<group>"; };
-		3AA94F3925C7F91D00CADCFF /* AdaptedSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptedSectionView.swift; sourceTree = "<group>"; };
 		3AA94F3C25C7F98000CADCFF /* AdaptedSectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptedSectionViewModel.swift; sourceTree = "<group>"; };
 		3AA94F4025C7FA5E00CADCFF /* MainCellFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCellFactory.swift; sourceTree = "<group>"; };
 		3AA94F4325C7FAA800CADCFF /* AdaptedSectionFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptedSectionFactoryProtocol.swift; sourceTree = "<group>"; };
@@ -169,7 +167,6 @@
 				3AA94F1325C7EC8100CADCFF /* AdaptedCellProtocol.swift */,
 				3AA94F1625C7ED8400CADCFF /* AdaptedCellFactoryProtocol.swift */,
 				3AA94F1025C7EAF300CADCFF /* AdaptedViewModelInputProtocol.swift */,
-				3AA94F3925C7F91D00CADCFF /* AdaptedSectionView.swift */,
 				3AA94F3C25C7F98000CADCFF /* AdaptedSectionViewModel.swift */,
 				3AA94F4325C7FAA800CADCFF /* AdaptedSectionFactoryProtocol.swift */,
 			);
@@ -323,7 +320,6 @@
 				3AA94F2925C7F62E00CADCFF /* HZTableViewCell.swift in Sources */,
 				3AA94F3725C7F69400CADCFF /* HZCellViewModel.swift in Sources */,
 				3AA94F1725C7ED8400CADCFF /* AdaptedCellFactoryProtocol.swift in Sources */,
-				3AA94F3A25C7F91D00CADCFF /* AdaptedSectionView.swift in Sources */,
 				3A9E026E25C56B390082B885 /* TableViewController.swift in Sources */,
 				3A9E027E25C623CC0082B885 /* PictureTableViewCell.swift in Sources */,
 				3AFF66A725C497A0002A0488 /* AppDelegate.swift in Sources */,
