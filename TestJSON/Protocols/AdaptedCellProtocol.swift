@@ -1,0 +1,31 @@
+//
+//  AdaptedCellProtocol.swift
+//  TestJSON
+//
+//  Created by Антон Васильченко on 01.02.2021.
+//
+
+import Foundation
+import UIKit
+
+protocol AdaptedCellProtocol {
+    static var identifier: String { get }
+    static var nib: UINib { get }
+    static func register(_ tableView: UITableView)
+    static func reuse(_ tableView: UITableView, for indexPath: IndexPath) -> Self
+}
+
+extension AdaptedCellProtocol {
+    
+    static var identifier: String {
+        String(describing: self)
+    }
+    
+    static var nib: UINib {
+        UINib(nibName: identifier, bundle: nil)
+    }
+    
+    static func reuse(_tableView: UITableView, for indexPath: IndexPath) -> Self {
+        _tableView.dequeueReusableCell(withIdentifier: identifier, for: indexPath) as! Self
+    }
+}
